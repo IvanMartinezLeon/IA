@@ -2,8 +2,7 @@
 ---
 # 🚀 StartFlutter_Ultimate_Engine_v0.0
 
-> **⚙️ CONFIGURACIÓN:** Reemplaza `USUARIO/REPO` en las URLs con tu usuario y repositorio de GitHub.
-> Ejemplo: `https://raw.githubusercontent.com/tu_usuario/flutter-workflow/main/doc_templates/`
+> **⚙️ REPO:** https://github.com/IvanMartinezLeon/IA
 
 ## Descripción
 Creación de Proyecto Flutter Estándar con Múltiples Entornos e Internacionalización.
@@ -110,7 +109,7 @@ flutter:
 
 ## 3. 🧠 Cerebro del Proyecto & SDD
 
-> **📋 Templates:** https://raw.githubusercontent.com/USUARIO/REPO/main/doc_templates/
+> **📋 Templates:** https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/workflow/Flutter/00/doc_templates/
 
 **Archivos de referencia:**
 - `project_memory_template.md` - Log de decisiones
@@ -125,7 +124,7 @@ flutter:
 
 ## 4. 🌐 Entornos e Internacionalización
 
-> **📋 Templates:** https://raw.githubusercontent.com/USUARIO/REPO/main/doc_templates/
+> **📋 Templates:** https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/workflow/Flutter/00/doc_templates/
 
 **Archivos de referencia:**
 - `env_templates.md` - Plantillas .env
@@ -145,8 +144,8 @@ flutter:
 ## 5. 🔄 Protocolo de Sincronización y Calidad
 
 > **📋 Templates:** 
-> - Protocolo: https://raw.githubusercontent.com/USUARIO/REPO/main/doc_templates/agent_rules.md
-> - Ejemplo main.dart: https://raw.githubusercontent.com/USUARIO/REPO/main/doc_templates/main_example.md
+> - Protocolo: https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/workflow/Flutter/00/doc_templates/agent_rules.md
+> - Ejemplo main.dart: https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/workflow/Flutter/00/doc_templates/main_example.md
 
 Para cada tarea, el Agente seguirá este ciclo de vida:
 1. **SDD Update:** Actualizar especificaciones en `doc/`
@@ -196,7 +195,7 @@ flutter analyze
 
 ## 7. 📜 Reglas del Agente
 
-> **📋 Template:** https://raw.githubusercontent.com/USUARIO/REPO/main/doc_templates/agent_rules.md
+> **📋 Template:** https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/workflow/Flutter/00/doc_templates/agent_rules.md
 
 ---
 
@@ -284,7 +283,7 @@ fi
 
 **2. Archivos obligatorios en `$DOC_PATH`:**
 
-> **📋 Template:** https://raw.githubusercontent.com/USUARIO/REPO/main/doc_templates/feature_templates.md
+> **📋 Template:** https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/workflow/Flutter/00/doc_templates/feature_templates.md
 
 *Crear archivos manualmente o copiar del template:*
 - **SPEC.md** - Especificación
