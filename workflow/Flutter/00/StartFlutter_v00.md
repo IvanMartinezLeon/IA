@@ -99,10 +99,21 @@ flutter:
     - assets/env/.env.debug
     - assets/env/.env.profile
     - assets/env/.env.release
-
 ```
 
-### C. Inyección de Dependencias Dinámica
+### C. Instalación del Skill Flutter-Expert
+
+El Agente debe instalar y activar el skill desde el repositorio de GitHub:
+
+```bash
+# Descargar el skill desde el repositorio
+curl -o ~/.agents/skills/flutter-expert/SKILL.md https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/skill/flutter/00/SKILL.md
+
+# Activar el skill
+skill --name flutter-expert
+```
+
+Esto carga las instrucciones del experto Flutter en el contexto de la sesión con todas las reglas de documentación automática.
 
 * **Comunes:** `flutter_dotenv`, `intl`, `flutter_localizations`.
 * **Específicos:** Según el gestor de estado elegido en el punto 1.3.

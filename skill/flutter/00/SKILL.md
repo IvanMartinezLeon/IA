@@ -36,8 +36,74 @@ Cuando el usuario pida **crear**, **modificar** o **corregir** una feature, DEBE
 ### Protocolo para features:
 - Verificar ubicación del proyecto (contiene pubspec.yaml)
 - Crear/actualizar carpeta `doc/<nombre-feature>/`
-- Usar template: https://raw.githubusercontent.com/IvanMartinezLeon/IA/main/workflow/Flutter/00/doc_templates/feature_templates.md
+- Usar los templates embebidos abajo
 - Registrar cambios en `PROJECT_MEMORY.md`
+
+### Feature Templates (Embebidos)
+
+#### 1. SPEC.md
+```markdown
+# <Nombre Feature>
+
+## Descripción
+Breve descripción de la feature.
+
+## Funcionalidades
+- [ ] Funcionalidad 1
+- [ ] Funcionalidad 2
+
+## Dependencias
+- Paquete 1
+- Paquete 2
+
+## UI/UX
+Descripción de la interfaz esperada.
+
+## Tests
+- [ ] Test unitario 1
+- [ ] Test de widget 1
+```
+
+#### 2. ARCHITECTURE.md
+```markdown
+# Arquitectura - <Nombre Feature>
+
+## Patrón utilizado
+Elegir: Bloc / Riverpod / Provider / GetX / MVVM
+
+## Capas
+- **Presentation:** Widgets, Pages
+- **Domain:** Entities, UseCases
+- **Data:** Repositories, DataSources
+
+## Modelos
+- Modelo 1
+- Modelo 2
+```
+
+#### 3. TODO.md
+```markdown
+# TODO - <Nombre Feature>
+
+## Fase 1: Setup
+- [ ] Añadir dependencias
+- [ ] Crear estructura de carpetas
+
+## Fase 2: Modelos
+- [ ] Crear modelo X
+- [ ] Crear modelo Y
+
+## Fase 3: Lógica de Negocio
+- [ ] Implementar caso de uso 1
+
+## Fase 4: UI
+- [ ] Crear página principal
+- [ ] Crear componentes
+
+## Fase 5: Testing
+- [ ] Tests unitarios
+- [ ] Tests de widget
+```
 
 ## File Organization Rules
 
