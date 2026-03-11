@@ -37,7 +37,7 @@ flutter doctor
 > 3. **Gestor de Estado (Marca con [X] solo uno):**
 > 
 > Por ejemplo, podrías ponerme:
-> "Nombre: fitness_tracker, Org: com.miestudio, Gestor: Bloc"
+> "Nombre: fitness_tracker, Org: com.estudio.miestudio, Gestor: Bloc"
 > 
 > 
 
