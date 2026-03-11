@@ -6,10 +6,12 @@
 
 ## Descripción
 Creación de Proyecto Flutter Estándar con Múltiples Entornos e Internacionalización.
+**El idioma por defecto de la aplicación será Español (castellano).**
 Verificar el entorno y crear un nuevo proyecto Flutter estándar con:
 - Configuración para tres entornos (debug, profile, release) mediante archivos `.env`
 - Sistema de internacionalización con soporte para español (castellano) e inglés
 - Detección automática del idioma del dispositivo
+- El idioma por defecto será español
 - Estructura lista para producción
 
 ## 0. Verificación del Entorno (Flutter Doctor)
